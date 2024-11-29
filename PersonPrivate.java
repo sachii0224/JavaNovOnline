@@ -4,10 +4,12 @@ public class PersonPrivate {
     private int age;
     private double height;
     private double weight;
+
     {/*
         These are my new changes
         to the private fields
     */}
+    
     public PersonPrivate(String name, int age, double height, double weight) {
         this.name = name;
         this.age = age;
