@@ -9,7 +9,7 @@ public class PersonPrivate {
         These are my new changes
         to the private fields
     */}
-    
+
     public PersonPrivate(String name, int age, double height, double weight) {
         this.name = name;
         this.age = age;
@@ -18,6 +18,10 @@ public class PersonPrivate {
     }
     public void displayDetails(){
         double bmi = height / (weight + age);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Weight: " + weight);
         System.out.println(name + " bmis is: " + bmi);
     }
     public static void main(String[] args) {
