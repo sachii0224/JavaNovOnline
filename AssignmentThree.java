@@ -3,10 +3,11 @@
 
 public class AssignmentThree {
     public static void main(String[] args) {
-        for (int counter = 1; counter <= 26; counter++) {
+        for (int counter = 1; counter <= 100; counter++) {
             if (counter == 14) {
                 continue;
-            } else if (counter == 26){
+            }  
+            if (counter == 26){
                 break;
             }
             System.out.println("For Loop Counter " + counter);
