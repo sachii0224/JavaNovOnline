@@ -9,3 +9,5 @@ $ dollar sign
 . dot
 : colon
 ; semi colon 
+//if c && num==0) means must obey both but '//if (num>0 && num==0) means must obey both but '(num>0 || num==0)' must obey only one of 'em 
+% must be even number
